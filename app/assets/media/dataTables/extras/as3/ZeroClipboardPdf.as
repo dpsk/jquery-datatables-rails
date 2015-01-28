@@ -201,13 +201,13 @@ package {
 			pdf.textStyle( new RGBColor(0), 1 );
 			
 			/* Add the title / message if there is one */
-			pdf.setFont( new CoreFont(FontFamily.HELVETICA), 14 );
+			pdf.setFont( new CoreFont(FontFamily.HELVETICA), 12 );
 			if ( title != "" )
 			{
 				pdf.writeText(11, title+"\n");
 			}
 			
-			pdf.setFont( new CoreFont(FontFamily.HELVETICA), 11 );
+			pdf.setFont( new CoreFont(FontFamily.HELVETICA), 10 );
 			if ( message != "" )
 			{
 				pdf.writeText(11, message+"\n");
